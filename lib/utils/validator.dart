@@ -10,8 +10,8 @@ class Validator {
   static String? validateUserID({required String uid}) {
     if (uid.isEmpty) {
       return 'User ID can\'t be empty';
-    } else if (uid.length <= 3) {
-      return 'User ID should be greater than 3 characters';
+    } else if (uid.length <= 10) {
+      return 'User ID should be greater than 10 characters';
     }
 
     return null;

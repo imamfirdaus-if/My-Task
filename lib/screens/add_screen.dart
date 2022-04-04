@@ -18,7 +18,7 @@ class AddScreen extends StatelessWidget {
         backgroundColor: CustomColors.googleBackground,
         appBar: AppBar(
           elevation: 0,
-          backgroundColor: CustomColors.firebaseOrange,
+          backgroundColor: CustomColors.button,
           title: AppBarTitle(),
         ),
         body: SafeArea(

@@ -16,7 +16,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       backgroundColor: CustomColors.googleBackground,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: CustomColors.firebaseOrange,
+        backgroundColor: CustomColors.button,
         title: AppBarTitle(),
       ),
       floatingActionButton: FloatingActionButton(
@@ -27,7 +27,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ),
           );
         },
-        backgroundColor: CustomColors.firebaseOrange,
+        backgroundColor: CustomColors.button,
         child: Icon(
           Icons.add,
           color: Colors.white,

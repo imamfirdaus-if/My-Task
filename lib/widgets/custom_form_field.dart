@@ -47,11 +47,11 @@ class CustomFormField extends StatelessWidget {
       textCapitalization:
           isCapitalized ? TextCapitalization.words : TextCapitalization.none,
       textInputAction: _inputAction,
-      cursorColor: CustomColors.firebaseYellow,
+      cursorColor: CustomColors.button,
       validator: (value) => _validator(value!),
       decoration: InputDecoration(
         labelText: isLabelEnabled ? _label : null,
-        labelStyle: TextStyle(color: CustomColors.firebaseYellow),
+        labelStyle: TextStyle(color: CustomColors.button),
         hintText: _hint,
         hintStyle: TextStyle(
           color: CustomColors.firebaseGrey.withOpacity(0.5),

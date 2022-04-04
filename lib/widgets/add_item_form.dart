@@ -96,7 +96,7 @@ class _AddItemFormState extends State<AddItemForm> {
                   padding: const EdgeInsets.all(16.0),
                   child: CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation<Color>(
-                      CustomColors.firebaseOrange,
+                      CustomColors.button,
                     ),
                   ),
                 )
@@ -105,7 +105,7 @@ class _AddItemFormState extends State<AddItemForm> {
                   child: ElevatedButton(
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all(
-                        CustomColors.firebaseOrange,
+                        CustomColors.button,
                       ),
                       shape: MaterialStateProperty.all(
                         RoundedRectangleBorder(

@@ -57,7 +57,7 @@ class _LoginFormState extends State<LoginForm> {
               child: ElevatedButton(
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
-                    CustomColors.firebaseOrange,
+                    CustomColors.button,
                   ),
                   shape: MaterialStateProperty.all(
                     RoundedRectangleBorder(

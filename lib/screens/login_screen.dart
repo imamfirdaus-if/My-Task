@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                     return CircularProgressIndicator(
                       valueColor: AlwaysStoppedAnimation<Color>(
-                        CustomColors.firebaseOrange,
+                        CustomColors.button,
                       ),
                     );
                   },

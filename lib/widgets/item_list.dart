@@ -59,7 +59,7 @@ class ItemList extends StatelessWidget {
         return Center(
           child: CircularProgressIndicator(
             valueColor: AlwaysStoppedAnimation<Color>(
-              CustomColors.firebaseOrange,
+              CustomColors.button,
             ),
           ),
         );
